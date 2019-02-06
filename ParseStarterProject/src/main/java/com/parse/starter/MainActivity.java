@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           public void done(ParseException e) {
             if (e == null) {
               Log.i("Signup", "Success");
+              showUserList();
             } else {
               Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
             }
@@ -104,6 +105,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           public void done(ParseUser user, ParseException e) {
             if (user != null) {
               Log.i("Login","ok!");
+              showUserList();
             } else {
               Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
             }
@@ -131,6 +133,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     backgroundLayout.setOnClickListener(this);
 
     passwordEditText.setOnKeyListener(this);
+
+    if (ParseUser.getCurrentUser() != null) {
+      showUserList();
+    }
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
