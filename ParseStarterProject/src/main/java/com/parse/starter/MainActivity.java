@@ -8,6 +8,7 @@
  */
 package com.parse.starter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -35,6 +36,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
   EditText usernameEditText;
   EditText passwordEditText;
+
+  public void showUserList() {
+    Intent intent = new Intent(getApplicationContext(),UserListActivity.class);
+    startActivity(intent);
+  }
 
     @Override
     public boolean onKey(View v, int keyCode, KeyEvent event) {
