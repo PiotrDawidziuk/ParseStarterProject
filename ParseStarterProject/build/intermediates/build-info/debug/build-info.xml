@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
     plugin-version="3.0.0"
-    timestamp="1549450782048"
+    timestamp="1549452852197"
     token="-1927778866222962787"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1764" />
+        duration="568" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="221" />
+        duration="60" />
     <task
         name="verifier"
-        duration="100" />
+        duration="9" />
 
     <artifact
         location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -71,8 +71,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1549450782048"
+        ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
+        timestamp="1549452852197"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"

@@ -11,6 +11,7 @@ package com.parse.starter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -24,12 +25,25 @@ import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener  {
 
   Boolean signUpModeActive = true;
   TextView loginTextView;
 
-  @Override
+  EditText usernameEditText;
+  EditText passwordEditText;
+
+    @Override
+    public boolean onKey(View v, int keyCode, KeyEvent event) {
+
+        if (keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN){
+            signUpClicked(v);
+        }
+
+        return false;
+    }
+
+    @Override
   public void onClick(View view) {
     if (view.getId() == R.id.loginTextView) {
 
@@ -49,11 +63,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   }
 
   public void signUpClicked(View view) {
-    EditText usernameEditText = findViewById(R.id.usernameEditText);
-    EditText passwordEditText = findViewById(R.id.passwordEditText);
+
 
     if (usernameEditText.getText().toString().matches("") || passwordEditText.getText().toString().matches("")) {
-      Toast.makeText(this, "A username and a password are required.",Toast.LENGTH_SHORT).show();
+      Toast.makeText(this, "A username and a password are required.",Toast.LENGTH_LONG).show();
 
     } else {
       if (signUpModeActive) {
@@ -67,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (e == null) {
               Log.i("Signup", "Success");
             } else {
-              Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+              Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
             }
           }
         });
@@ -79,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (user != null) {
               Log.i("Login","ok!");
             } else {
-              Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+              Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
             }
           }
         });
@@ -94,6 +107,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     loginTextView = findViewById(R.id.loginTextView);
     loginTextView.setOnClickListener(this);
+
+    usernameEditText = findViewById(R.id.usernameEditText);
+    passwordEditText = findViewById(R.id.passwordEditText);
+
+    passwordEditText.setOnKeyListener(this);
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
