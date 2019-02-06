@@ -5,28 +5,49 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
+    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.0.0"
-    timestamp="1549452852197"
+    timestamp="1549454626722"
     token="-1927778866222962787"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="568" />
+        duration="1181" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="60" />
+        duration="115" />
     <task
         name="verifier"
-        duration="9" />
+        duration="56" />
 
+    <artifact
+        location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\outputs\apk\debug\ParseStarterProject-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -71,12 +92,33 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
-        timestamp="1549452852197"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1549454626722"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Lenovo\Downloads\Android\08.06\Parse-Server-Starter-Project\ParseStarterProject\build\outputs\apk\debug\ParseStarterProject-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

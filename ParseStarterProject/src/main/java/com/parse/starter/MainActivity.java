@@ -13,8 +13,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -58,6 +61,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         signUpButton.setText("Sign Up");
         loginTextView.setText("or, Login");
       }
+
+    } else if (view.getId() == R.id.logoImageView || view.getId() == R.id.backgroundLayout) {
+      InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+      inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),0);
 
     }
   }
@@ -110,6 +117,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     usernameEditText = findViewById(R.id.usernameEditText);
     passwordEditText = findViewById(R.id.passwordEditText);
+
+    ImageView logoImageView = findViewById(R.id.logoImageView);
+    RelativeLayout backgroundLayout = findViewById(R.id.backgroundLayout);
+
+    logoImageView.setOnClickListener(this);
+    backgroundLayout.setOnClickListener(this);
 
     passwordEditText.setOnKeyListener(this);
 
