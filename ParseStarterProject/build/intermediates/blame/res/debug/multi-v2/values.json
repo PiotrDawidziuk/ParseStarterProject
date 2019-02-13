@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Lenovo\\Downloads\\Android\\08.06\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "380",
+                        "endLines": "13",
+                        "endColumns": "12",
+                        "endOffsets": "507"
+                    },
+                    "to": {
+                        "startLines": "782",
+                        "startColumns": "4",
+                        "startOffsets": "75799",
+                        "endLines": "784",
+                        "endColumns": "12",
+                        "endOffsets": "75924"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.0.aar\\70b8e06127792950679ab1f204632731\\res\\values\\values.xml",
                     "from": {
@@ -237,22 +256,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\Downloads\\Android\\08.06\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "369",
-                        "endLines": "13",
-                        "endColumns": "12",
-                        "endOffsets": "494"
+                        "startLines": "10,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "413,472",
+                        "endColumns": "57,55",
+                        "endOffsets": "466,523"
                     },
                     "to": {
-                        "startLines": "782",
-                        "startColumns": "4",
-                        "startOffsets": "75799",
-                        "endLines": "784",
-                        "endColumns": "12",
-                        "endOffsets": "75924"
+                        "startLines": "548,549",
+                        "startColumns": "4,4",
+                        "startOffsets": "58303,58361",
+                        "endColumns": "57,55",
+                        "endOffsets": "58356,58412"
                     }
                 },
                 {
@@ -292,13 +309,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\Downloads\\Android\\08.06\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "15,12,14,9,10,17,16",
                         "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "605,492,552,369,430,711,658",
+                        "startOffsets": "620,504,566,378,440,728,674",
                         "endColumns": "52,58,52,60,60,62,52",
-                        "endOffsets": "653,546,600,425,486,769,706"
+                        "endOffsets": "668,558,614,434,496,786,722"
                     },
                     "to": {
                         "startLines": "690,691,751,763,764,774,775",
@@ -325,23 +342,6 @@
                         "endLines": "2126,2127",
                         "endColumns": "12,95",
                         "endOffsets": "165163,165259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Lenovo\\Downloads\\Android\\08.06\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "10,11",
-                        "startColumns": "4,4",
-                        "startOffsets": "403,461",
-                        "endColumns": "57,55",
-                        "endOffsets": "456,512"
-                    },
-                    "to": {
-                        "startLines": "548,549",
-                        "startColumns": "4,4",
-                        "startOffsets": "58303,58361",
-                        "endColumns": "57,55",
-                        "endOffsets": "58356,58412"
                     }
                 }
             ]
