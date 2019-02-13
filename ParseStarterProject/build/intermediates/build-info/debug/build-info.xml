@@ -5,23 +5,24 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0"
-    timestamp="1550090225139"
+    timestamp="1550092566419"
     token="-286536385889084268"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="613" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="45" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
 
     <artifact
         location="C:\Users\Lenovo\AndroidStudioProjects\001PhotoApp\ParseStarterProject\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -70,7 +71,8 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1550090225139"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1550092566419"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Lenovo\AndroidStudioProjects\001PhotoApp\ParseStarterProject\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
