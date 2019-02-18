@@ -4,41 +4,7 @@
             "outputFile": "C:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-9.4.0.aar\\c0272a62bae4aeab2dc8ec5f01b4cfe7\\res\\values-pt-rBR\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "337,473,611",
-                        "endColumns": "135,137,98",
-                        "endOffsets": "468,606,705"
-                    },
-                    "to": {
-                        "startLines": "32,33,34",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "3182,3318,3456",
-                        "endColumns": "135,137,98",
-                        "endOffsets": "3313,3451,3550"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-9.4.0.aar\\31f5a42f9098b950f04beb281bf7a994\\res\\values-pt-rBR\\values.xml",
-                    "from": {
-                        "startLines": "4,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "285,391",
-                        "endColumns": "105,98",
-                        "endOffsets": "386,485"
-                    },
-                    "to": {
-                        "startLines": "75,76",
-                        "startColumns": "4,4",
-                        "startOffsets": "8781,8887",
-                        "endColumns": "105,98",
-                        "endOffsets": "8882,8981"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.4.0.aar\\6013c1e94408b2dd8a093ede427385ae\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.4.0.aar\\e63bc93494cdb35e2fe0ff6aad85a1ab\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
@@ -55,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.4.0.aar\\2f982b1315b0c846af2066154b989d0b\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-9.4.0.aar\\5d0bd2cf713ef8200cdb779ff10714f3\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "285,391",
+                        "endColumns": "105,98",
+                        "endOffsets": "386,485"
+                    },
+                    "to": {
+                        "startLines": "75,76",
+                        "startColumns": "4,4",
+                        "startOffsets": "8781,8887",
+                        "endColumns": "105,98",
+                        "endOffsets": "8882,8981"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.4.0.aar\\e73cf71a7afd4babf571a9af4a6b23ca\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.4.0.aar\\39ad795aed1b4e48d95f37d881a7b432\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.4.0.aar\\29288ca5f0750dabd2f322afa89abb09\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -89,24 +72,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.4.0.aar\\e7e9d4e06c63f9e143eb9a07d2f9ac41\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-9.4.0.aar\\aa4611c3683e8613fca6c953e74a0067\\res\\values-pt-rBR\\values.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "292",
-                        "endColumns": "108",
-                        "endOffsets": "396"
+                        "startLines": "4,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "337,473,611",
+                        "endColumns": "135,137,98",
+                        "endOffsets": "468,606,705"
                     },
                     "to": {
-                        "startLines": "79",
-                        "startColumns": "4",
-                        "startOffsets": "9172",
-                        "endColumns": "108",
-                        "endOffsets": "9276"
+                        "startLines": "32,33,34",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3182,3318,3456",
+                        "endColumns": "135,137,98",
+                        "endOffsets": "3313,3451,3550"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\09f03d0655019864f1f5cf30d790528c\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\734b5fa7e327a7d4faa28f8d7441af59\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -120,6 +103,23 @@
                         "startOffsets": "105,225,333,456,562,669,758,859,977,1060,1140,1227,1334,1446,1548,1656,1763,1873,1998,8986,9071",
                         "endColumns": "119,107,122,105,106,88,100,117,82,79,86,106,111,101,107,106,109,124,99,84,100",
                         "endOffsets": "220,328,451,557,664,753,854,972,1055,1135,1222,1329,1441,1543,1651,1758,1868,1993,2093,9066,9167"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.4.0.aar\\0ef0687e930adac02bc2acfd8a5b71bf\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "292",
+                        "endColumns": "108",
+                        "endOffsets": "396"
+                    },
+                    "to": {
+                        "startLines": "79",
+                        "startColumns": "4",
+                        "startOffsets": "9172",
+                        "endColumns": "108",
+                        "endOffsets": "9276"
                     }
                 }
             ]

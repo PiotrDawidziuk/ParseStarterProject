@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.0.aar\\a643f54dfe746ca8b5aff51df2b6a26f\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.0.aar\\aa6abd724ca471f04f4e92be57e4c1bb\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\09f03d0655019864f1f5cf30d790528c\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\734b5fa7e327a7d4faa28f8d7441af59\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

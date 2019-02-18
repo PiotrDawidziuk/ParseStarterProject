@@ -4,7 +4,24 @@
             "outputFile": "C:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\09f03d0655019864f1f5cf30d790528c\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.4.0.aar\\0ef0687e930adac02bc2acfd8a5b71bf\\res\\values-en-rAU\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "292",
+                        "endColumns": "103",
+                        "endOffsets": "391"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3292",
+                        "endColumns": "103",
+                        "endOffsets": "3391"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\734b5fa7e327a7d4faa28f8d7441af59\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.0.0.aar\\a7ce64e0e0950ea1c1c844fbcd8a1def\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.0.0.aar\\53daf417162d6ad3e75453d3e864eb27\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "1969,2074,2188,2293,2398,2518,2614,2708,2827,2929,3015",
                         "endColumns": "104,113,104,104,119,95,93,118,101,85,93",
                         "endOffsets": "2069,2183,2288,2393,2513,2609,2703,2822,2924,3010,3104"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.4.0.aar\\e7e9d4e06c63f9e143eb9a07d2f9ac41\\res\\values-en-rAU\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "292",
-                        "endColumns": "103",
-                        "endOffsets": "391"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3292",
-                        "endColumns": "103",
-                        "endOffsets": "3391"
                     }
                 }
             ]

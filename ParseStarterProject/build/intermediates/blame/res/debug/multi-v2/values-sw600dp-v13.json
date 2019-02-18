@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.0.0.aar\\a7ce64e0e0950ea1c1c844fbcd8a1def\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.0.0.aar\\53daf417162d6ad3e75453d3e864eb27\\res\\values-sw600dp\\values-sw600dp.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\09f03d0655019864f1f5cf30d790528c\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\734b5fa7e327a7d4faa28f8d7441af59\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
