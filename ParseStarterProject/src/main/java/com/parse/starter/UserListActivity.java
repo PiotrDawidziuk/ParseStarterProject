@@ -14,6 +14,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -32,7 +34,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserListActivity extends AppCompatActivity {
-
 
     public void getPhoto(){
 
@@ -130,6 +131,15 @@ public class UserListActivity extends AppCompatActivity {
         final ListView listView = findViewById(R.id.listView);
         final ArrayList<String> usernames = new ArrayList<String>();
         final ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,usernames);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getApplicationContext(),UserFeedActivity.class);
+                intent.putExtra("username",usernames.get(position));
+                startActivity(intent);
+            }
+        });
 
 
         //usernames.add("test");
