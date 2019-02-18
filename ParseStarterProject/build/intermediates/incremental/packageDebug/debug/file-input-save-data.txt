@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Feb 18 23:47:40 CET 2019
+#Tue Feb 19 00:08:43 CET 2019
 20.base=C\:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\build\\intermediates\\res\\debug\\resources-debug.ap_
 143.base=C\:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\build\\intermediates\\res\\debug\\resources-debug.ap_
 340.file=C\:\\Users\\Lenovo\\AndroidStudioProjects\\001PhotoApp\\ParseStarterProject\\ParseStarterProject\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\cast_ic_notification_0.png
